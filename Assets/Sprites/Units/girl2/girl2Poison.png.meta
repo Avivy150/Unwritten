@@ -1,0 +1,248 @@
+fileFormatVersion: 2
+guid: 365e7dac04c0b52429046e5b09f9d9ae
+timeCreated: 1466134986
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: poisongif2_0
+    21300002: poisongif2_1
+    21300004: poisongif2_2
+    21300006: poisongif2_3
+    21300008: poisongif2_4
+    21300010: poisongif2_5
+    21300012: poisongif2_6
+    21300014: poisongif2_7
+    21300016: poisongif2_8
+    21300018: girl2Poison_0
+    21300020: girl2Poison_1
+    21300022: girl2Poison_2
+    21300024: girl2Poison_3
+    21300026: girl2Poison_4
+    21300028: girl2Poison_5
+    21300030: girl2Poison_6
+    21300032: girl2Poison_7
+    21300034: girl2Poison_8
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: girl2Poison_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 67
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.5, y: 44.5}
+        - {x: -23.5, y: 44.5}
+        - {x: -33.5, y: 41.5}
+        - {x: -33.5, y: -10.5}
+        - {x: -14.5, y: -44.5}
+        - {x: 15.5, y: -44.5}
+        - {x: 33.5, y: -15.5}
+        - {x: 33.5, y: 15.5}
+        - {x: 25.5, y: 42.5}
+    - name: girl2Poison_1
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 2
+        width: 67
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26.5, y: 44.5}
+        - {x: -30.5, y: 33.5}
+        - {x: -33.5, y: 15.5}
+        - {x: -33.5, y: -10.5}
+        - {x: -14.5, y: -44.5}
+        - {x: 20.5, y: -44.5}
+        - {x: 33.5, y: -9.5}
+        - {x: 33.5, y: 44.5}
+    - name: girl2Poison_2
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 2
+        width: 67
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.5, y: 44.5}
+        - {x: -21.5, y: 44.5}
+        - {x: -33.5, y: 40.5}
+        - {x: -33.5, y: -10.5}
+        - {x: -14.5, y: -44.5}
+        - {x: 20.5, y: -44.5}
+        - {x: 33.5, y: -11.5}
+        - {x: 33.5, y: 31.5}
+        - {x: 31.5, y: 34.5}
+    - name: girl2Poison_3
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 2
+        width: 67
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.5, y: 44.5}
+        - {x: -33.5, y: 25.5}
+        - {x: -33.5, y: -21.5}
+        - {x: -18.5, y: -44.5}
+        - {x: 14.5, y: -44.5}
+        - {x: 33.5, y: -19.5}
+        - {x: 33.5, y: 32.5}
+        - {x: 31.5, y: 44.5}
+    - name: girl2Poison_4
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 2
+        width: 67
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: 44.5}
+        - {x: -33.5, y: 38.5}
+        - {x: -33.5, y: -10.5}
+        - {x: -14.5, y: -44.5}
+        - {x: 14.5, y: -44.5}
+        - {x: 33.5, y: -9.5}
+        - {x: 33.5, y: 36.5}
+        - {x: 25.5, y: 44.5}
+    - name: girl2Poison_5
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 2
+        width: 67
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 44.5}
+        - {x: -33.5, y: 40.5}
+        - {x: -33.5, y: -14.5}
+        - {x: -18.5, y: -44.5}
+        - {x: 32.5, y: -44.5}
+        - {x: 33.5, y: -39.5}
+        - {x: 33.5, y: 44.5}
+    - name: girl2Poison_6
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 2
+        width: 67
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: 44.5}
+        - {x: -33.5, y: 38.5}
+        - {x: -33.5, y: -10.5}
+        - {x: -14.5, y: -44.5}
+        - {x: 14.5, y: -44.5}
+        - {x: 33.5, y: -9.5}
+        - {x: 33.5, y: 36.5}
+        - {x: 25.5, y: 44.5}
+    - name: girl2Poison_7
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 2
+        width: 67
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.5, y: 44.5}
+        - {x: -33.5, y: 25.5}
+        - {x: -33.5, y: -21.5}
+        - {x: -18.5, y: -44.5}
+        - {x: 14.5, y: -44.5}
+        - {x: 33.5, y: -19.5}
+        - {x: 33.5, y: 32.5}
+        - {x: 31.5, y: 44.5}
+    - name: girl2Poison_8
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 2
+        width: 67
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.5, y: 44.5}
+        - {x: -21.5, y: 44.5}
+        - {x: -33.5, y: 40.5}
+        - {x: -33.5, y: -10.5}
+        - {x: -14.5, y: -44.5}
+        - {x: 20.5, y: -44.5}
+        - {x: 33.5, y: -11.5}
+        - {x: 33.5, y: 31.5}
+        - {x: 31.5, y: 34.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
