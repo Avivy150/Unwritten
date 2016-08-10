@@ -1,8 +1,10 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class PlayerInput : MonoBehaviour
-{
+{ 
+    
+    public float jumpTime;
     public equitmentWindow eWindow;
     public float runSpeed = 4f;
     public bool isWalking = false;
@@ -11,6 +13,7 @@ public class PlayerInput : MonoBehaviour
     [HideInInspector]
     public float verticalInput;
 
+    bool canJump = true;
     public bool up;
     public bool right;
     public bool down;
@@ -60,24 +63,39 @@ public class PlayerInput : MonoBehaviour
             ReduceAnimationSpeedIfMovingDiagonally();
         }
 
-        if (Input.GetButtonDown("Jump"))
+        if (Input.GetButtonDown("Jump") )
         {
             isJumping = true;
         }
     }
+
+   
 
     void FixedUpdate()
     {
         if (isWalking || isJumping)
         {
             MoveUnit(horizontalInput, verticalInput);
+        } 
+        if (isJumping && canJump)
+        {
+            canJump = false;
+            Jump(); 
         }
     }
 
     void Jump()
     {
+        print("jump!");
+        isJumping = false; 
+        wait(jumpTime);
+        canJump = true;
     }
 
+    IEnumerator wait(float time)
+    {
+        yield return new WaitForSeconds(time);
+    }
     void ReduceAnimationSpeedIfMovingDiagonally()
     {
         if (horizontalInput == -1 && verticalInput == -1)
@@ -146,7 +164,6 @@ public class PlayerInput : MonoBehaviour
     }   
 
 } 
-
 
 
 
